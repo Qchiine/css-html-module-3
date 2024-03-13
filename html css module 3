@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>our menu</title>
+    <style>
+        body{
+            font-size: 16px;
+            background-color: rgb(220, 219, 221);
+            font-family: sans-serif;
+        }
+        .frame {
+          border: 2px solid black;
+          padding: 20px;
+          margin: 10px;
+          display: inline-block;
+          width: 27%;
+          background: gray;
+          position: relative;
+        }
+        .case{
+          border: 2px solid black;
+          padding: 5px;
+          position: absolute;
+          right: 0;
+          top:0;
+        }
+        #blue{
+          background-color: blue;
+        }
+        #pink{
+          background-color: pink;
+        }
+        #purple{
+          background-color: purple;
+        }
+        h1{
+        text-align: center;
+      }
+      
+      nav {
+      background-color: #333;
+      overflow: hidden;
+    }
+
+    nav ul {
+      list-style-type: none;
+      margin: 0;
+      padding: 0;
+      overflow: hidden;
+    }
+
+    nav li {
+      float: left;
+    }
+
+    nav a {
+      display: block;
+      color: white;
+      text-align: center;
+      padding: 14px 16px;
+      text-decoration: none;
+    }
+
+    nav a:hover {
+      background-color: #ddd;
+    }
+    nav p{
+        text-align: center;
+        font-family:'Times New Roman', Times, serif;
+    }
+      </style>
+<body>
+    <nav>
+        <p text-align="center">FOOD,LLC</p>
+        <ul>
+          <li><a href="#blue">chiken</a></li>
+          <li><a href="#pink">beef</a></li>
+          <li><a href="#purple">suchi</a></li>
+        </ul>
+      </nav>
+    <h1>Our menu</h1>
+    <div class="frame">
+      <div class="case" id="blue">chiken</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      <div class="frame">
+        <div class="case" id="pink">Beef</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      <div class="frame">
+        <div class="case" id="purple">Sushi</div>
+        <p>Tlorem ipsum dolor sit amet, consecteteur adipiscing elit, sed do euismod tempoor incididunt ut labore et doloore magna aliqua.ut enim ad minim veniam, quiq noostrud exercitation ullamco laboris nisi ut aliquip ex ea coommodo consequat</p>
+      </div>
+      </body>
+      </html>
+</body>
+</html>
